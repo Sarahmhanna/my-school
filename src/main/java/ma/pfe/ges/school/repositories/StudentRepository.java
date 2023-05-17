@@ -10,7 +10,7 @@ public interface StudentRepository {
 
 
 
-    Long save(StudentEntity entity);
+    StudentEntity save(StudentEntity entity);
     StudentEntity update(StudentEntity entity);
     boolean delete (Long id);
     List<StudentEntity> selectAll(StudentEntity entity);

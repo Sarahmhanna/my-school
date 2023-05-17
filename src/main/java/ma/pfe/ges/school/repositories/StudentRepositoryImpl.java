@@ -5,15 +5,16 @@ import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
 import java.util.List;
-@Repository
+@Repository("repo1")
 public class StudentRepositoryImpl implements StudentRepository{
     @Override
-    public Long save(StudentEntity entity) {
-        return new StudentEntity().getId();
+    public StudentEntity save(StudentEntity entity) {
+        return new StudentEntity();
     }
 
     @Override
     public StudentEntity update(StudentEntity entity) {
+
         return new StudentEntity();
     }
 

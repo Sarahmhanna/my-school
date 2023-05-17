@@ -16,6 +16,13 @@ spring:
     password: rootroot
 
 
+logging:
+  level:
+    ma.pfe.ges.school: INFO
+    org.springframework.web: DEBUG
+
+
+
 
 
 
