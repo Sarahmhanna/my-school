@@ -1,0 +1,22 @@
+server:
+  port: 8084
+  servlet:
+    context-path: /api
+
+spring:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create
+      open-in-view: true
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/school
+    username: root
+    password: rootroot
+
+
+
+
+
+
